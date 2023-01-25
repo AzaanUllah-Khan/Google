@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(66, 66, 66);
+    color: white;
+    font-family: arial;
+}
+.upper{
+    vertical-align: top;
+    text-align: right;
+}
+.email{
+    border-radius: 50px;
+    padding: 5px 5px;
+}
+.one{
+    color: black;
+    margin-right: 17px;
+}
+.two{
+    color: black;
+    margin-right: 17px;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color: rgb(255, 255, 255);
+}
+.google{
+    width: 280px;
+    display: flex;
+    margin: auto;
+    margin-top: 110px;
+    filter: brightness(0) invert(1);
+    
+}
+.search-bar{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    background-color: white;
+    border: solid;
+    border-width: 1px;
+    border-color: gainsboro;
+    padding: 10px 20px;
+    height: 20px;
+    box-shadow: 3px 3px 10px gray;
+    margin-left: 360px;
+}
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+}
+::placeholder{
+    font-family: Arial;
+}
+.search-bar button img{
+    width: 25px;
+}
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.classroom{
+    width: 78px;
+    margin-left: 120px;
+    margin-top: 60px;
+    border-radius: 60px;
+}
+.canva{
+    width: 55px;
+    margin-left: 500px;
+    margin-top: 40px;
+    border-radius: 60px;
+}
+.canva:hover{
+    opacity: 0.5;
+}
+.canva:active{
+    opacity: 1;
+}
+.classroom:hover{
+    opacity: 0.5;
+}
+.classroom:active{
+    opacity: 1;
+}
+.cc{
+    margin-top: 300px;
+    float: right;
+    background-color: rgb(22, 22, 22);
+    border-width: 1px;
+    padding: 10px 10px;
+    border-radius: 60px;
+    color: blue;
+    border-color: white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+.cc span{
+    display: none;
+}
+.cc:hover span{
+    display: inline-block;
+}
+.tabss{
+    width: 100px;
+    text-align: center;
+    margin-left: 10px;
+    padding: 10px 0px;
+    transition: 1s ease 0s;
+    padding: 10px;
+    border-radius: 10%;
+}
+.tabss:hover{
+    background-color: rgba(192, 192, 192, 0.151);
+}
+.tabss img{
+    width: 40%;
+    border: 6px solid rgba(110, 110, 110, 0.5);
+    border-radius: 50%;
+}
+.tab{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.search i{
+    color: rgb(67, 15, 116);
+}
+.tab a{
+    text-decoration: none;
+    color: white;
+}
+.tab a:visited{
+    color: white;
+}
